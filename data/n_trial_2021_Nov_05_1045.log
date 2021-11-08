@@ -1,0 +1,27 @@
+9.4040 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BCF1224AC8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BCF124B240>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4042 	EXP 	window1: mouseVisible = True
+9.4043 	EXP 	window1: recordFrameIntervals = False
+9.5689 	EXP 	window1: recordFrameIntervals = True
+9.7518 	EXP 	window1: recordFrameIntervals = False
+10.1230 	EXP 	Created Welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Welcome_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1280 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.1502 	EXP 	Created No_background_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='No_background_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.1503 	EXP 	window1: mouseVisible = True
+10.3929 	EXP 	Created goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='goodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4595 	EXP 	Welcome_text: text = 'Welcome  \n\nPress SPACEBAR to continue'
+10.4595 	EXP 	Welcome_text: autoDraw = True
+11.4486 	DATA 	Keypress: space
+11.4614 	EXP 	Welcome_text: autoDraw = False
+11.4614 	EXP 	polygon: autoDraw = True
+11.7150 	EXP 	Imported VideoStimuli.xlsx as conditions, 4 conditions, 3 params
+11.7168 	EXP 	Created sequence: sequential, trialTypes=4, nReps=2, seed=None
+11.7175 	EXP 	New trial (rep=0, index=0): {'videos': 'videos/d_c_grasp.mp4', 'DrinkingPass': 'Drinking', 'CongruentIncongruent': 'Congruent'}
+12.3974 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/d_c_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+13.5431 	EXP 	polygon: autoDraw = False
+13.5431 	EXP 	Trial_videos: autoLog = True
+13.5431 	EXP 	Trial_videos: movie = 'videos/d_c_grasp.mp4'
+13.5431 	EXP 	Trial_videos: size = array([840., 460.])
+13.5431 	EXP 	Trial_videos: ori = 0.0
+13.5431 	EXP 	Trial_videos: autoDraw = True
+14.7480 	DATA 	Keypress: escape
+15.0021 	EXP 	window1: mouseVisible = True

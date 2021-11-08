@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Oktober 28, 2021, at 13:18
+    on November 05, 2021, at 13:52
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -90,7 +90,7 @@ Key_welcome_response = keyboard.Keyboard()
 Welcome_text = visual.TextStim(win=win, name='Welcome_text',
     text='',
     font='Open Sans',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-1.0);
@@ -102,7 +102,7 @@ polygon = visual.ShapeStim(
     size=(0.25, 0.25),
     ori=0.0, pos=(0, 0),
     lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
-    opacity=None, depth=0.0, interpolate=True)
+    opacity=1.0, depth=0.0, interpolate=True)
 
 # Initialize components for Routine "Video_Trials"
 Video_TrialsClock = core.Clock()
@@ -113,7 +113,7 @@ No_background_image = visual.ImageStim(
     win=win,
     name='No_background_image', 
     image='sin', mask=None,
-    ori=0.0, pos=(0, 0), size=[0.7,0.5],
+    ori=0.0, pos=(0, 0), size=[0.8,0.45],
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=0.0)
@@ -126,8 +126,8 @@ GoodByeClock = core.Clock()
 goodbye = visual.TextStim(win=win, name='goodbye',
     text='Thank you for participating!\n\nPress SPACEBAR to end the experiment',
     font='Open Sans',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
-    color='black', colorSpace='rgb', opacity=None, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
 key_resp_2 = keyboard.Keyboard()
@@ -142,7 +142,7 @@ continueRoutine = True
 Key_welcome_response.keys = []
 Key_welcome_response.rt = []
 _Key_welcome_response_allKeys = []
-Welcome_text.setText('Welcome  \nIn the following wxperiment you will be presented with some videos, please mark with the "mause" where\nPress SPACEBAR to continue')
+Welcome_text.setText('Welcome!\n\nIn this experiment, you will be presented with some videos.\n\nPlease use the mouse and click on the screen, to indicate where it was the last time that the object appear. \n\nIf you have any questions consult the experimenter.\n\nOnce you have understood this, press SPACEBAR to begin.')
 # keep track of which components have finished
 WelcomeScreenComponents = [Key_welcome_response, Welcome_text]
 for thisComponent in WelcomeScreenComponents:

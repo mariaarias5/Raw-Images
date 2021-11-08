@@ -82,7 +82,7 @@
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="Open Sans" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
         <Param name="name" updates="None" val="Welcome_text" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -94,7 +94,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="num"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="set every repeat" val="Welcome  &amp;#10;&amp;#10;Press SPACEBAR to continue" valType="str"/>
+        <Param name="text" updates="set every repeat" val="Welcome!&amp;#10;&amp;#10;In this experiment, you will be presented with some videos.&amp;#10;&amp;#10;Please use the mouse and click on the screen, to indicate where it was the last time that the object appear. &amp;#10;&amp;#10;If you have any questions consult the experimenter.&amp;#10;&amp;#10;Once you have understood this, press SPACEBAR to begin." valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -111,7 +111,7 @@
         <Param name="lineWidth" updates="constant" val="1" valType="num"/>
         <Param name="nVertices" updates="constant" val="4" valType="int"/>
         <Param name="name" updates="None" val="polygon" valType="code"/>
-        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="opacity" updates="constant" val="1" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
@@ -129,7 +129,7 @@
     </Routine>
     <Routine name="GoodBye">
       <TextComponent name="goodbye">
-        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
@@ -137,7 +137,7 @@
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="Open Sans" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
         <Param name="name" updates="None" val="goodbye" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -232,7 +232,7 @@
         <Param name="ori" updates="constant" val="0" valType="num"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="size" updates="constant" val="[0.7,0.5]" valType="list"/>
+        <Param name="size" updates="constant" val="[0.8,0.45]" valType="list"/>
         <Param name="startEstim" updates="None" val="" valType="num"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="num"/>

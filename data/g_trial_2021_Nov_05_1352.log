@@ -1,0 +1,207 @@
+6.5104 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002BD03294BA8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002BD031FA358>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5105 	EXP 	window1: mouseVisible = True
+6.5105 	EXP 	window1: recordFrameIntervals = False
+6.6755 	EXP 	window1: recordFrameIntervals = True
+7.6739 	EXP 	window1: recordFrameIntervals = False
+7.8777 	EXP 	Created Welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcome_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.8804 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.8935 	EXP 	Created No_background_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='No_background_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.8 , 0.45]), texRes=128.0, units='height', win=Window(...))
+7.8936 	EXP 	window1: mouseVisible = True
+7.9501 	EXP 	Created goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='goodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0103 	EXP 	Welcome_text: text = 'Welcome!\n\nIn this experiment, you will be presented with some videos.\n\nPlease use the mouse and click on the screen, to indicate where it was the last time that the object appear. \n\nIf you have any questions consult the experimenter.\n\nOnce you have understood this, press SPACEBAR to begin.'
+8.0103 	EXP 	Welcome_text: autoDraw = True
+9.2166 	DATA 	Keypress: space
+9.2245 	EXP 	Welcome_text: autoDraw = False
+9.2245 	EXP 	polygon: autoDraw = True
+9.4675 	EXP 	Imported VideoStimuli.xlsx as conditions, 4 conditions, 3 params
+9.4680 	EXP 	Created sequence: sequential, trialTypes=4, nReps=2, seed=None
+9.4682 	EXP 	New trial (rep=0, index=0): {'videos': 'videos/d_c_grasp.mp4', 'DrinkingPass': 'Drinking', 'CongruentIncongruent': 'Congruent'}
+9.5750 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/d_c_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+10.3855 	EXP 	polygon: autoDraw = False
+10.3855 	EXP 	polygon: autoDraw = False
+10.3855 	EXP 	Trial_videos: autoLog = True
+10.3855 	EXP 	Trial_videos: movie = 'videos/d_c_grasp.mp4'
+10.3855 	EXP 	Trial_videos: size = array([840., 460.])
+10.3855 	EXP 	Trial_videos: ori = 0.0
+10.3855 	EXP 	Trial_videos: autoDraw = True
+12.5046 	EXP 	Set Trial_videos finished
+12.5110 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+12.5112 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+12.5114 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+12.5676 	EXP 	Trial_videos: autoDraw = False
+12.5676 	EXP 	No_background_image: image = 'image/nobackground.png'
+12.5676 	EXP 	No_background_image: autoDraw = True
+13.1870 	DATA 	Mouse: Left button down, pos=(940,569)
+13.1896 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+13.2167 	EXP 	No_background_image: autoDraw = False
+13.2167 	EXP 	No_background_image: image = 'image/nobackground.png'
+13.2167 	EXP 	No_background_image: autoDraw = True
+13.4055 	DATA 	Mouse:  Left button up, pos=(940,569)
+19.3824 	DATA 	Mouse: Left button down, pos=(924,552)
+19.3849 	EXP 	New trial (rep=0, index=1): {'videos': 'videos/d_in_grasp.mp4', 'DrinkingPass': 'Drinking', 'CongruentIncongruent': 'Incongruent'}
+19.3853 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/d_in_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+20.1754 	DATA 	Mouse:  Left button up, pos=(924,552)
+20.1941 	EXP 	No_background_image: autoDraw = False
+20.1941 	EXP 	Trial_videos: autoLog = True
+20.1941 	EXP 	Trial_videos: movie = 'videos/d_in_grasp.mp4'
+20.1941 	EXP 	Trial_videos: size = array([840., 460.])
+20.1941 	EXP 	Trial_videos: ori = 0.0
+20.1941 	EXP 	Trial_videos: autoDraw = True
+22.2628 	EXP 	Set Trial_videos finished
+22.2700 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+22.2703 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+22.2706 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+22.3084 	EXP 	Trial_videos: autoDraw = False
+22.3084 	EXP 	No_background_image: image = 'image/nobackground.png'
+22.3084 	EXP 	No_background_image: autoDraw = True
+25.2445 	DATA 	Mouse: Left button down, pos=(881,507)
+25.2475 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+25.2730 	EXP 	No_background_image: autoDraw = False
+25.2730 	EXP 	No_background_image: image = 'image/nobackground.png'
+25.2730 	EXP 	No_background_image: autoDraw = True
+25.4770 	DATA 	Mouse:  Left button up, pos=(881,507)
+26.8756 	DATA 	Mouse: Left button down, pos=(881,507)
+26.8783 	EXP 	New trial (rep=0, index=2): {'videos': 'videos/pass_c_grasp.mp4', 'DrinkingPass': 'Passing', 'CongruentIncongruent': 'Congruent'}
+26.8786 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/pass_c_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+27.6638 	DATA 	Mouse:  Left button up, pos=(881,507)
+27.6707 	EXP 	No_background_image: autoDraw = False
+27.6707 	EXP 	Trial_videos: autoLog = True
+27.6707 	EXP 	Trial_videos: movie = 'videos/pass_c_grasp.mp4'
+27.6707 	EXP 	Trial_videos: size = array([840., 460.])
+27.6707 	EXP 	Trial_videos: ori = 0.0
+27.6707 	EXP 	Trial_videos: autoDraw = True
+30.1383 	EXP 	Set Trial_videos finished
+30.1437 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+30.1440 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+30.1442 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+30.1689 	EXP 	Trial_videos: autoDraw = False
+30.1689 	EXP 	No_background_image: image = 'image/nobackground.png'
+30.1689 	EXP 	No_background_image: autoDraw = True
+31.1227 	DATA 	Mouse: Left button down, pos=(950,518)
+31.1257 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+31.1512 	EXP 	No_background_image: autoDraw = False
+31.1512 	EXP 	No_background_image: image = 'image/nobackground.png'
+31.1512 	EXP 	No_background_image: autoDraw = True
+31.3551 	DATA 	Mouse:  Left button up, pos=(950,518)
+32.9402 	DATA 	Mouse: Left button down, pos=(950,518)
+32.9561 	EXP 	New trial (rep=0, index=3): {'videos': 'videos/pass_in_grasp.mp4', 'DrinkingPass': 'Passing', 'CongruentIncongruent': 'Incongruent'}
+32.9565 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/pass_in_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+33.7380 	DATA 	Mouse:  Left button up, pos=(950,518)
+33.7490 	EXP 	No_background_image: autoDraw = False
+33.7490 	EXP 	Trial_videos: autoLog = True
+33.7490 	EXP 	Trial_videos: movie = 'videos/pass_in_grasp.mp4'
+33.7490 	EXP 	Trial_videos: size = array([840., 460.])
+33.7490 	EXP 	Trial_videos: ori = 0.0
+33.7490 	EXP 	Trial_videos: autoDraw = True
+35.9164 	EXP 	Set Trial_videos finished
+35.9221 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+35.9224 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+35.9227 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+35.9471 	EXP 	Trial_videos: autoDraw = False
+35.9471 	EXP 	No_background_image: image = 'image/nobackground.png'
+35.9471 	EXP 	No_background_image: autoDraw = True
+36.9018 	DATA 	Mouse: Left button down, pos=(948,539)
+36.9050 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+36.9294 	EXP 	No_background_image: autoDraw = False
+36.9294 	EXP 	No_background_image: image = 'image/nobackground.png'
+36.9294 	EXP 	No_background_image: autoDraw = True
+37.1333 	DATA 	Mouse:  Left button up, pos=(948,539)
+38.4991 	DATA 	Mouse: Left button down, pos=(948,539)
+38.5016 	EXP 	New trial (rep=1, index=0): {'videos': 'videos/d_c_grasp.mp4', 'DrinkingPass': 'Drinking', 'CongruentIncongruent': 'Congruent'}
+38.5020 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/d_c_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+39.2902 	DATA 	Mouse:  Left button up, pos=(948,539)
+39.2941 	EXP 	No_background_image: autoDraw = False
+39.2941 	EXP 	Trial_videos: autoLog = True
+39.2941 	EXP 	Trial_videos: movie = 'videos/d_c_grasp.mp4'
+39.2941 	EXP 	Trial_videos: size = array([840., 460.])
+39.2941 	EXP 	Trial_videos: ori = 0.0
+39.2941 	EXP 	Trial_videos: autoDraw = True
+41.4295 	EXP 	Set Trial_videos finished
+41.4367 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+41.4370 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+41.4372 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+41.4588 	EXP 	Trial_videos: autoDraw = False
+41.4588 	EXP 	No_background_image: image = 'image/nobackground.png'
+41.4588 	EXP 	No_background_image: autoDraw = True
+41.8476 	DATA 	Mouse: Left button down, pos=(948,539)
+41.8510 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+41.8752 	EXP 	No_background_image: autoDraw = False
+41.8752 	EXP 	No_background_image: image = 'image/nobackground.png'
+41.8752 	EXP 	No_background_image: autoDraw = True
+42.0627 	DATA 	Mouse:  Left button up, pos=(948,539)
+43.3289 	DATA 	Mouse: Left button down, pos=(948,539)
+43.3316 	EXP 	New trial (rep=1, index=1): {'videos': 'videos/d_in_grasp.mp4', 'DrinkingPass': 'Drinking', 'CongruentIncongruent': 'Incongruent'}
+43.3320 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/d_in_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+44.1227 	DATA 	Mouse:  Left button up, pos=(948,539)
+44.1400 	EXP 	No_background_image: autoDraw = False
+44.1400 	EXP 	Trial_videos: autoLog = True
+44.1400 	EXP 	Trial_videos: movie = 'videos/d_in_grasp.mp4'
+44.1400 	EXP 	Trial_videos: size = array([840., 460.])
+44.1400 	EXP 	Trial_videos: ori = 0.0
+44.1400 	EXP 	Trial_videos: autoDraw = True
+46.2082 	EXP 	Set Trial_videos finished
+46.2145 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+46.2148 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+46.2150 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+46.2382 	EXP 	Trial_videos: autoDraw = False
+46.2382 	EXP 	No_background_image: image = 'image/nobackground.png'
+46.2382 	EXP 	No_background_image: autoDraw = True
+47.0605 	DATA 	Mouse: Left button down, pos=(951,511)
+47.0643 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+47.1040 	EXP 	No_background_image: autoDraw = False
+47.1040 	EXP 	No_background_image: image = 'image/nobackground.png'
+47.1040 	EXP 	No_background_image: autoDraw = True
+47.2921 	DATA 	Mouse:  Left button up, pos=(951,511)
+48.5268 	DATA 	Mouse: Left button down, pos=(970,498)
+48.5436 	EXP 	New trial (rep=1, index=2): {'videos': 'videos/pass_c_grasp.mp4', 'DrinkingPass': 'Passing', 'CongruentIncongruent': 'Congruent'}
+48.5441 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/pass_c_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+49.3259 	DATA 	Mouse:  Left button up, pos=(970,498)
+49.3352 	EXP 	No_background_image: autoDraw = False
+49.3352 	EXP 	Trial_videos: autoLog = True
+49.3352 	EXP 	Trial_videos: movie = 'videos/pass_c_grasp.mp4'
+49.3352 	EXP 	Trial_videos: size = array([840., 460.])
+49.3352 	EXP 	Trial_videos: ori = 0.0
+49.3352 	EXP 	Trial_videos: autoDraw = True
+51.8029 	EXP 	Set Trial_videos finished
+51.8083 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+51.8086 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+51.8087 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+51.8334 	EXP 	Trial_videos: autoDraw = False
+51.8334 	EXP 	No_background_image: image = 'image/nobackground.png'
+51.8334 	EXP 	No_background_image: autoDraw = True
+52.9023 	DATA 	Mouse: Left button down, pos=(960,559)
+52.9053 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+52.9323 	EXP 	No_background_image: autoDraw = False
+52.9323 	EXP 	No_background_image: image = 'image/nobackground.png'
+52.9323 	EXP 	No_background_image: autoDraw = True
+53.1223 	DATA 	Mouse:  Left button up, pos=(960,559)
+54.6549 	DATA 	Mouse: Left button down, pos=(960,559)
+54.6698 	EXP 	New trial (rep=1, index=3): {'videos': 'videos/pass_in_grasp.mp4', 'DrinkingPass': 'Passing', 'CongruentIncongruent': 'Incongruent'}
+54.6702 	EXP 	Created Trial_videos = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='videos/pass_in_grasp.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='Trial_videos', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+55.4489 	DATA 	Mouse:  Left button up, pos=(960,559)
+55.4635 	EXP 	No_background_image: autoDraw = False
+55.4635 	EXP 	Trial_videos: autoLog = True
+55.4635 	EXP 	Trial_videos: movie = 'videos/pass_in_grasp.mp4'
+55.4635 	EXP 	Trial_videos: size = array([840., 460.])
+55.4635 	EXP 	Trial_videos: ori = 0.0
+55.4635 	EXP 	Trial_videos: autoDraw = True
+57.6310 	EXP 	Set Trial_videos finished
+57.6365 	EXP 	Imported ImageStimuli.xlsx as conditions, 1 conditions, 1 params
+57.6368 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+57.6370 	EXP 	New trial (rep=0, index=0): {'filename_image': 'image/nobackground.png'}
+57.6775 	EXP 	Trial_videos: autoDraw = False
+57.6775 	EXP 	No_background_image: image = 'image/nobackground.png'
+57.6775 	EXP 	No_background_image: autoDraw = True
+80.0130 	DATA 	Mouse: Left button down, pos=(960,559)
+80.0159 	EXP 	New trial (rep=1, index=0): {'filename_image': 'image/nobackground.png'}
+80.0580 	EXP 	No_background_image: autoDraw = False
+80.0580 	EXP 	No_background_image: image = 'image/nobackground.png'
+80.0580 	EXP 	No_background_image: autoDraw = True
+80.2298 	DATA 	Mouse:  Left button up, pos=(960,559)
+82.8278 	DATA 	Mouse: Left button down, pos=(935,519)
+82.8441 	EXP 	No_background_image: autoDraw = False
+82.8441 	EXP 	goodbye: autoDraw = True
+83.0491 	DATA 	Mouse:  Left button up, pos=(935,519)
+85.6134 	DATA 	Keypress: space
+85.6240 	EXP 	goodbye: autoDraw = False
+87.6570 	EXP 	window1: mouseVisible = True
